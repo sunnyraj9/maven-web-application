@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.172.88:8081/repository/cherryrelease/</url>
+	      <url>http://13.233.172.88:8081/repository/GOGOPIPERELEASE/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.172.88:8081/repository/cherrysnapshot/</url>
+	      <url>http://13.233.172.88:8081/repository/GOGOPIPESNAP/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
