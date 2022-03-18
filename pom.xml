@@ -126,7 +126,7 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>**/target/*.war</file>
+                <file>maven-web-application.war</file>
                 <url>http://url</url>
                 <repositoryId>jenkins-maven-uploads</repositoryId>
                 <packaging>war</packaging>
