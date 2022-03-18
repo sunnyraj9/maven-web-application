@@ -120,7 +120,7 @@
                                 <version>3.0.0-M1</version>
                                 <executions>
                                 <execution>
-                                <id>deploy-jar-file</id>
+                                <id>deploy-war-file</id>
                                 <phase>deploy</phase>
             <goals>
                 <goal>deploy-file</goal>
@@ -129,7 +129,7 @@
                 <file>${basedir}/target/${name}-${version}-${env}.zip</file>
                 <url>http://url</url>
                 <repositoryId>jenkins-maven-uploads</repositoryId>
-                <packaging>zip</packaging>
+                <packaging>war</packaging>
             </configuration>
         </execution>
     </executions>
