@@ -126,7 +126,7 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>${basedir}/target/${name}-${version}-${env}.zip</file>
+                <file>**/target/*.war</file>
                 <url>http://url</url>
                 <repositoryId>jenkins-maven-uploads</repositoryId>
                 <packaging>war</packaging>
