@@ -37,7 +37,7 @@
 			<version>20160212</version>
 		</dependency>
 		
-		<!-- test dependencies -->
+		<!-- testing dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
